@@ -9,17 +9,17 @@ int a = int.Parse(Console.ReadLine());
 
 if(a < 1)
 {
-    Console.WriteLine("Некоректные данные, повторите попытку");
+    Console.WriteLine("Некоректные данные, повторите попытку :/");
 }
 else if(a < 6)
 {
-    Console.WriteLine("Нет");
+    Console.WriteLine("Сегодня не выходной :(");
 }
 else if(a < 8)
 {
-    Console.WriteLine("Да");
+    Console.WriteLine("Ура! Сегодня выходной! :)");
 }
 else
 {
-    Console.WriteLine("Некоректные данные, повторите попытку");
+    Console.WriteLine("Некоректные данные, повторите попытку :/");
 }
